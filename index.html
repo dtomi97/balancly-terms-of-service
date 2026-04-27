@@ -1,183 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Balancly – Terms of Service</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          sans-serif;
-        background: #f9f9f9;
-        color: #1a1a1a;
-        line-height: 1.7;
-        padding: 24px 16px 64px;
-      }
-      .container {
-        max-width: 720px;
-        margin: 0 auto;
-        background: #fff;
-        border-radius: 12px;
-        padding: 40px 40px 48px;
-        box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
-      }
-      h1 {
-        font-size: 2rem;
-        font-weight: 800;
-        color: #111;
-        margin-bottom: 6px;
-      }
-      .subtitle {
-        color: #888;
-        font-size: 0.9rem;
-        margin-bottom: 40px;
-      }
-      h2 {
-        font-size: 1.1rem;
-        font-weight: 700;
-        color: #111;
-        margin: 36px 0 10px;
-        padding-left: 12px;
-        border-left: 3px solid #4caf50;
-      }
-      p {
-        margin-bottom: 12px;
-        color: #444;
-      }
-      ul {
-        margin: 8px 0 12px 20px;
-        color: #444;
-      }
-      li {
-        margin-bottom: 6px;
-      }
-      a {
-        color: #2e7d32;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      .legal-ref {
-        display: inline-block;
-        background: #f1f8e9;
-        border: 1px solid #c5e1a5;
-        border-radius: 4px;
-        padding: 1px 7px;
-        font-size: 0.78rem;
-        color: #33691e;
-        font-weight: 600;
-        vertical-align: middle;
-        margin-left: 4px;
-      }
-      .highlight-box {
-        background: #f1f8e9;
-        border-left: 3px solid #4caf50;
-        border-radius: 0 8px 8px 0;
-        padding: 12px 16px;
-        margin: 12px 0 16px;
-        color: #1b5e20;
-        font-size: 0.92rem;
-      }
-      .warning-box {
-        background: #fff8e1;
-        border-left: 3px solid #f9a825;
-        border-radius: 0 8px 8px 0;
-        padding: 12px 16px;
-        margin: 12px 0 16px;
-        color: #5d4037;
-        font-size: 0.92rem;
-      }
-      @media (max-width: 600px) {
-        .container {
-          padding: 24px 20px 36px;
-          border-radius: 0;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Terms of Service</h1>
-      <p class="subtitle">
-        Balancly – Personal Finance Manager &nbsp;·&nbsp; Last updated: April
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balancly – Terms of Service / Felhasználási feltételek</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f9f9f9;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 24px 16px 64px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px 40px 48px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+    .lang-switcher { display: flex; gap: 8px; margin-bottom: 32px; }
+    .lang-btn {
+      padding: 6px 18px;
+      border-radius: 20px;
+      border: 2px solid #4caf50;
+      background: transparent;
+      color: #4caf50;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .lang-btn.active { background: #4caf50; color: #fff; }
+    .lang-content { display: none; }
+    .lang-content.active { display: block; }
+    h1 { font-size: 2rem; font-weight: 800; color: #111; margin-bottom: 6px; }
+    .subtitle { color: #888; font-size: 0.9rem; margin-bottom: 40px; }
+    h2 {
+      font-size: 1.1rem; font-weight: 700; color: #111;
+      margin: 36px 0 10px;
+      padding-left: 12px;
+      border-left: 3px solid #4caf50;
+    }
+    p { margin-bottom: 12px; color: #444; }
+    ul { margin: 8px 0 12px 20px; color: #444; }
+    li { margin-bottom: 6px; }
+    a { color: #2e7d32; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .legal-ref {
+      display: inline-block;
+      background: #f1f8e9;
+      border: 1px solid #c5e1a5;
+      border-radius: 4px;
+      padding: 1px 7px;
+      font-size: 0.78rem;
+      color: #33691e;
+      font-weight: 600;
+      vertical-align: middle;
+      margin-left: 4px;
+    }
+    .highlight-box {
+      background: #f1f8e9;
+      border-left: 3px solid #4caf50;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      margin: 12px 0 16px;
+      color: #1b5e20;
+      font-size: 0.92rem;
+    }
+    .warning-box {
+      background: #fff8e1;
+      border-left: 3px solid #f9a825;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      margin: 12px 0 16px;
+      color: #5d4037;
+      font-size: 0.92rem;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 24px 20px 36px; border-radius: 0; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="switchLang('en')">English</button>
+    <button class="lang-btn" onclick="switchLang('hu')">Magyar</button>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="content-en" class="lang-content active">
+
+<h1>Terms of Service</h1>
+<p class="subtitle">
+        Balancly – Personal Finance Manager  ·  Last updated: April
         2026
       </p>
-
-      <p>
+<p>
         Please read these Terms of Service ("Terms") carefully before using the
         Balancly mobile application ("App", "Service"). By downloading,
         installing, or using Balancly, you agree to be bound by these Terms. If
         you do not agree, do not use the App.
       </p>
-      <p>
+<p>
         These Terms constitute a legally binding agreement between you ("User")
         and
         <strong>Dudás Tamás István</strong>, an individual developer based in
         Hungary ("Developer", "we", "us", or "our").
       </p>
-
-      <!-- ── 1. Eligibility ── -->
-      <h2>1. Eligibility</h2>
-      <p>
+<!-- ── 1. Eligibility ── -->
+<h2>1. Eligibility</h2>
+<p>
         You must be at least <strong>13 years of age</strong> to use Balancly.
         If you are under 18, you confirm that you have obtained parental or
         guardian consent. By using the App you represent that you meet these age
         requirements.
       </p>
-      <p>
+<p>
         In accordance with <strong>Act XLIX of 2024</strong> (effective 1
         January 2025), the App's advertising features are not directed at
         minors. Free-tier users under the age of 18 may see general
         advertisements, but we do not knowingly serve behaviorally targeted
         advertisements to minors.
       </p>
-
-      <!-- ── 2. Description of Service ── -->
-      <h2>2. Description of Service</h2>
-      <p>
+<!-- ── 2. Description of Service ── -->
+<h2>2. Description of Service</h2>
+<p>
         Balancly is a personal finance tracking application. It allows you to
         manually record income and expenses, set category limits, view
         analytics, and manage recurring transactions. The App is available in a
         <strong>free tier</strong> and a
         <strong>premium subscription tier</strong>.
       </p>
-      <div class="warning-box">
-        <strong>⚠️ Not financial advice.</strong> Balancly is a personal
+<div class="warning-box">
+<strong>⚠️ Not financial advice.</strong> Balancly is a personal
         tracking tool only. Nothing in the App constitutes financial,
         investment, tax, or legal advice. We are not a licensed financial
         advisor, credit institution, or payment service provider. You are solely
         responsible for your financial decisions. We expressly disclaim any
         liability arising from reliance on information displayed in the App.
       </div>
-
-      <!-- ── 3. Account Registration ── -->
-      <h2>3. Account Registration</h2>
-      <p>
+<!-- ── 3. Account Registration ── -->
+<h2>3. Account Registration</h2>
+<p>
         To use Balancly you must create an account using a valid email address
         and password. You are responsible for:
       </p>
-      <ul>
-        <li>Maintaining the confidentiality of your login credentials;</li>
-        <li>All activity that occurs under your account;</li>
-        <li>Providing accurate and current information during registration;</li>
-        <li>
+<ul>
+<li>Maintaining the confidentiality of your login credentials;</li>
+<li>All activity that occurs under your account;</li>
+<li>Providing accurate and current information during registration;</li>
+<li>
           Notifying us immediately of any unauthorized use of your account.
         </li>
-      </ul>
-      <p>
+</ul>
+<p>
         We reserve the right to suspend or terminate accounts that violate these
         Terms or that we reasonably believe are being used fraudulently.
       </p>
-
-      <!-- ── 4. Subscriptions and Payments ── -->
-      <h2>4. Subscriptions and Payments</h2>
-      <p>
+<!-- ── 4. Subscriptions and Payments ── -->
+<h2>4. Subscriptions and Payments</h2>
+<p>
         Balancly offers optional premium subscription plans processed
         exclusively through
         <strong>Google Play</strong> (Android) and
@@ -185,131 +172,125 @@
         respective platform store. We do not process or store your payment card
         details.
       </p>
-      <p><strong>Available plans:</strong></p>
-      <ul>
-        <li>
-          <strong>Monthly subscription</strong> — billed once per month,
+<p><strong>Available plans:</strong></p>
+<ul>
+<li>
+<strong>Monthly subscription</strong> — billed once per month,
           auto-renewing;
         </li>
-        <li>
-          <strong>Yearly subscription</strong> — billed once per year,
+<li>
+<strong>Yearly subscription</strong> — billed once per year,
           auto-renewing.
         </li>
-      </ul>
-      <p>
-        <strong>Auto-renewal:</strong> Subscriptions automatically renew at the
+</ul>
+<p>
+<strong>Auto-renewal:</strong> Subscriptions automatically renew at the
         end of each billing period unless cancelled at least 24 hours before the
         renewal date. You will be charged the applicable subscription price at
         confirmation of purchase and at the start of each renewal period.
       </p>
-      <p>
-        <strong>Price changes:</strong> We reserve the right to change
+<p>
+<strong>Price changes:</strong> We reserve the right to change
         subscription prices. Where required by law, we will provide advance
         notice of any price changes. Continued use after a price change
         constitutes acceptance of the new price.
       </p>
-      <p>
-        <strong>Cancellation:</strong> You may cancel your subscription at any
+<p>
+<strong>Cancellation:</strong> You may cancel your subscription at any
         time through the Google Play Store or Apple App Store subscription
         management settings. Cancellation takes effect at the end of the current
         billing period. You will retain access to premium features until that
         date.
       </p>
-      <p>
-        <strong>Refunds:</strong> Refund requests are handled by Google Play or
+<p>
+<strong>Refunds:</strong> Refund requests are handled by Google Play or
         the Apple App Store in accordance with their respective refund policies.
         We do not process refunds directly.
       </p>
-
-      <!-- ── 5. 14-Day Withdrawal Right ── -->
-      <h2>5. Right of Withdrawal</h2>
-      <p>
+<!-- ── 5. 14-Day Withdrawal Right ── -->
+<h2>5. Right of Withdrawal</h2>
+<p>
         Under <strong>Government Decree 45/2014 (II.26.)</strong> and EU
         Directive 2019/770 as implemented in Hungary, consumers generally have a
         14-day right to withdraw from distance contracts without giving a
         reason.
         <span class="legal-ref">Ptk. 8:1 § (1) 3.</span>
-      </p>
-      <div class="highlight-box">
-        <strong>Digital content exception:</strong> By initiating your
+</p>
+<div class="highlight-box">
+<strong>Digital content exception:</strong> By initiating your
         subscription and accessing premium features, you explicitly request that
         the digital service begins immediately and you acknowledge that you
         thereby waive your 14-day right of withdrawal once performance of the
         contract has begun, in accordance with Article 16(m) of EU Directive
         2011/83/EU and its Hungarian implementation.
       </div>
-      <p>
+<p>
         If you have not yet accessed any premium feature after subscribing, you
         may contact us within 14 days of purchase to request a withdrawal. In
         such cases, refund processing is subject to the platform store's (Google
         Play / App Store) policies.
       </p>
-
-      <!-- ── 6. Free Tier and Advertising ── -->
-      <h2>6. Free Tier and Advertising</h2>
-      <p>
+<!-- ── 6. Free Tier and Advertising ── -->
+<h2>6. Free Tier and Advertising</h2>
+<p>
         The free tier of Balancly is supported by interstitial advertisements
         delivered by
         <strong>Google AdMob</strong>. By using the free tier you consent to the
         display of such advertisements. Premium subscribers do not see
         advertisements.
       </p>
-      <p>
+<p>
         Advertisements are served by Google LLC and are subject to Google's own
         terms and privacy policies. We do not control the content of individual
         advertisements. If you encounter an advertisement you believe is
         inappropriate, you may report it directly to Google.
       </p>
-
-      <!-- ── 7. User Conduct ── -->
-      <h2>7. User Conduct and Prohibited Uses</h2>
-      <p>You agree not to:</p>
-      <ul>
-        <li>
+<!-- ── 7. User Conduct ── -->
+<h2>7. User Conduct and Prohibited Uses</h2>
+<p>You agree not to:</p>
+<ul>
+<li>
           Use the App for any unlawful purpose or in violation of these Terms;
         </li>
-        <li>Attempt to reverse-engineer, decompile, or disassemble the App;</li>
-        <li>
+<li>Attempt to reverse-engineer, decompile, or disassemble the App;</li>
+<li>
           Attempt to gain unauthorized access to our systems or other users'
           accounts;
         </li>
-        <li>Use the App to store or transmit any malicious code;</li>
-        <li>
+<li>Use the App to store or transmit any malicious code;</li>
+<li>
           Interfere with or disrupt the integrity or performance of the App;
         </li>
-        <li>Use automated scripts or bots to access the App;</li>
-        <li>Misrepresent your identity or impersonate any person or entity;</li>
-        <li>
+<li>Use automated scripts or bots to access the App;</li>
+<li>Misrepresent your identity or impersonate any person or entity;</li>
+<li>
           Use the App in any manner that could violate applicable Hungarian or
           EU law.
         </li>
-      </ul>
-
-      <!-- ── 8. User Data and Content ── -->
-      <h2>8. Your Data</h2>
-      <p>
+</ul>
+<!-- ── 8. User Data and Content ── -->
+<h2>8. Your Data</h2>
+<p>
         All financial data you enter into Balancly (transactions, categories,
         limits) belongs to you. We store this data on your behalf in Firebase
         Firestore to enable cross-device synchronisation. You may export your
         data at any time in CSV format from within the App.
       </p>
-      <p>
+<p>
         Upon deletion of your account, all your data is permanently removed from
         our systems. For full details on how we collect, process, and protect
         your data, please refer to our
-        <a href="https://dtomi97.github.io/balancly-privacy/">Privacy Policy</a
-        >.
+        <a href="https://dtomi97.github.io/balancly-privacy/">Privacy Policy</a>.
       </p>
-      <p>
+<p>
         We process your personal data in accordance with
         <strong>GDPR (Regulation EU 2016/679)</strong> and
         <strong>Act CXII of 2011</strong> on the Right to Informational
         Self-Determination and Freedom of Information.
       </p>
-
-      <!-- ── 9. Intellectual Property ── -->
-      <h2>9. Intellectual Property</h2>
-      <p>
+<!-- ── 9. Intellectual Property ── -->
+<h2>9. Intellectual Property</h2>
+<p>
         The App, including its design, source code, graphics, user interface,
         and all content developed for or incorporated into, is the exclusive
         intellectual property of
@@ -318,202 +299,340 @@
         <strong>Act LXXVI of 1999 on Copyright</strong>
         (szerzői jogról szóló 1999. évi LXXVI. törvény).
       </p>
-      <p>
+<p>
         We grant you a limited, non-exclusive, non-transferable, revocable
         licence to use the App solely for your personal, non-commercial purposes
         in accordance with these Terms. This licence does not include any right
         to sublicense, sell, resell, copy, or modify the App.
       </p>
-
-      <!-- ── 10. Disclaimer of Warranties ── -->
-      <h2>10. Disclaimer of Warranties</h2>
-      <p>
+<!-- ── 10. Disclaimer of Warranties ── -->
+<h2>10. Disclaimer of Warranties</h2>
+<p>
         The App is provided <strong>"as is"</strong> and
         <strong>"as available"</strong>
         without warranties of any kind, express or implied, including but not
         limited to warranties of merchantability, fitness for a particular
         purpose, accuracy, completeness, or non-infringement.
       </p>
-      <p>We do not warrant that:</p>
-      <ul>
-        <li>
+<p>We do not warrant that:</p>
+<ul>
+<li>
           The App will be uninterrupted, error-free, or secure at all times;
         </li>
-        <li>Any errors or defects will be corrected;</li>
-        <li>
+<li>Any errors or defects will be corrected;</li>
+<li>
           The App or its servers are free of viruses or other harmful
           components;
         </li>
-        <li>
+<li>
           The results obtained from using the App will be accurate or reliable.
         </li>
-      </ul>
-      <p>
+</ul>
+<p>
         Nothing in these Terms affects your statutory rights as a consumer under
         Hungarian law, including rights under
         <strong>Act CLV of 1997 on Consumer Protection</strong>
         (fogyasztóvédelemről szóló 1997. évi CLV. törvény) and
         <strong>Act V of 2013 on the Civil Code</strong>.
       </p>
-
-      <!-- ── 11. Limitation of Liability ── -->
-      <h2>11. Limitation of Liability</h2>
-      <p>
+<!-- ── 11. Limitation of Liability ── -->
+<h2>11. Limitation of Liability</h2>
+<p>
         To the maximum extent permitted by applicable law, we shall not be
         liable for any indirect, incidental, special, consequential, or punitive
         damages, including but not limited to loss of profits, data, goodwill,
         or other intangible losses resulting from:
       </p>
-      <ul>
-        <li>Your use of or inability to use the App;</li>
-        <li>Any errors or inaccuracies in the financial data displayed;</li>
-        <li>Unauthorized access to or alteration of your data;</li>
-        <li>Any financial decisions made based on information in the App;</li>
-        <li>Interruption or cessation of the Service.</li>
-      </ul>
-      <p>
+<ul>
+<li>Your use of or inability to use the App;</li>
+<li>Any errors or inaccuracies in the financial data displayed;</li>
+<li>Unauthorized access to or alteration of your data;</li>
+<li>Any financial decisions made based on information in the App;</li>
+<li>Interruption or cessation of the Service.</li>
+</ul>
+<p>
         Our total aggregate liability to you for any claims arising from these
         Terms or your use of the App shall not exceed the amount you paid for
         the App or subscription in the 12 months preceding the claim.
       </p>
-      <p>
+<p>
         This limitation does not exclude or restrict liability for death or
         personal injury caused by our negligence, or for fraud or fraudulent
         misrepresentation, or for any other liability that cannot be limited
         under Hungarian law.
       </p>
-
-      <!-- ── 12. Service Availability ── -->
-      <h2>12. Service Availability and Modifications</h2>
-      <p>
+<!-- ── 12. Service Availability ── -->
+<h2>12. Service Availability and Modifications</h2>
+<p>
         We reserve the right to modify, suspend, or discontinue the App or any
         part of it at any time, with or without notice. We will endeavour to
         provide advance notice of significant changes where reasonably possible.
       </p>
-      <p>
+<p>
         We may update these Terms from time to time. The updated Terms will be
         posted at this URL. If the changes are material, we will notify you
         through the App or by email. Continued use of the App after changes take
         effect constitutes your acceptance of the updated Terms.
       </p>
-
-      <!-- ── 13. Account Termination ── -->
-      <h2>13. Account Termination</h2>
-      <p>
+<!-- ── 13. Account Termination ── -->
+<h2>13. Account Termination</h2>
+<p>
         You may delete your account at any time from within the App (Profile →
         Danger Zone → Delete Account). Upon deletion, all your data is
         permanently erased from our systems. Active subscriptions must be
         cancelled separately through your platform store before deleting your
         account to avoid further charges.
       </p>
-      <p>
+<p>
         We may suspend or terminate your account if you breach these Terms,
         engage in fraudulent activity, or if required to do so by law. In the
         case of termination due to your breach, no refund will be issued for any
         unused subscription period.
       </p>
-
-      <!-- ── 14. Consumer Dispute Resolution ── -->
-      <h2>14. Consumer Dispute Resolution</h2>
-      <p>
+<!-- ── 14. Consumer Dispute Resolution ── -->
+<h2>14. Consumer Dispute Resolution</h2>
+<p>
         We are committed to resolving any disputes with users in good faith. If
         you have a complaint, please contact us first at the email address
         below.
       </p>
-      <p>
+<p>
         In accordance with Hungarian law effective from
         <strong>1 January 2024</strong>, we are bound by the decisions of the
         <strong>Consumer Conciliation Boards</strong> (Békéltető Testület) for
         disputes with a value below <strong>HUF 200,000</strong>.
         <span class="legal-ref">Act CLV of 1997, § 29</span>
-      </p>
-      <p>The competent Consumer Conciliation Board for our location is:</p>
-      <ul>
-        <li>
-          <strong>Budapesti Békéltető Testület</strong> (Budapest Consumer
+</p>
+<p>The competent Consumer Conciliation Board for our location is:</p>
+<ul>
+<li>
+<strong>Budapesti Békéltető Testület</strong> (Budapest Consumer
           Conciliation Board)
         </li>
-        <li>Address: 1016 Budapest, Krisztina krt. 99.</li>
-        <li>
+<li>Address: 1016 Budapest, Krisztina krt. 99.</li>
+<li>
           Website:
-          <a href="https://bekeltet.bkik.hu" target="_blank"
-            >bekeltet.bkik.hu</a
-          >
-        </li>
-      </ul>
-      <p>
+          <a href="https://bekeltet.bkik.hu" target="_blank">bekeltet.bkik.hu</a>
+</li>
+</ul>
+<p>
         For EU-based consumers, online dispute resolution is also available
         through the European Commission's ODR platform:
-        <a href="https://ec.europa.eu/consumers/odr" target="_blank"
-          >ec.europa.eu/consumers/odr</a
-        >
-      </p>
-      <p>
+        <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a>
+</p>
+<p>
         Consumer protection complaints may also be submitted to the
-        <strong>National Trade and Consumer Protection Authority (NKFH)</strong
-        >, which has operated as an independent authority since 1 January 2025.
+        <strong>National Trade and Consumer Protection Authority (NKFH)</strong>, which has operated as an independent authority since 1 January 2025.
       </p>
-
-      <!-- ── 15. Governing Law ── -->
-      <h2>15. Governing Law and Jurisdiction</h2>
-      <p>
+<!-- ── 15. Governing Law ── -->
+<h2>15. Governing Law and Jurisdiction</h2>
+<p>
         These Terms are governed by and construed in accordance with the laws of
         <strong>Hungary</strong> and applicable
         <strong>European Union regulations</strong>, including but not limited
         to:
       </p>
-      <ul>
-        <li>Act V of 2013 on the Civil Code (Polgári Törvénykönyv);</li>
-        <li>
+<ul>
+<li>Act V of 2013 on the Civil Code (Polgári Törvénykönyv);</li>
+<li>
           Act CLV of 1997 on Consumer Protection (Fogyasztóvédelmi törvény);
         </li>
-        <li>Act LXXVI of 1999 on Copyright (Szerzői jogi törvény);</li>
-        <li>Government Decree 45/2014 (II.26.) on B2C distance contracts;</li>
-        <li>EU Directive 2019/770 on digital content and digital services;</li>
-        <li>GDPR — Regulation (EU) 2016/679.</li>
-      </ul>
-      <p>
+<li>Act LXXVI of 1999 on Copyright (Szerzői jogi törvény);</li>
+<li>Government Decree 45/2014 (II.26.) on B2C distance contracts;</li>
+<li>EU Directive 2019/770 on digital content and digital services;</li>
+<li>GDPR — Regulation (EU) 2016/679.</li>
+</ul>
+<p>
         Any dispute that cannot be resolved through the consumer dispute
         resolution mechanisms described in Section 14 shall be submitted to the
         exclusive jurisdiction of the competent courts of Hungary.
       </p>
-      <p>
+<p>
         If you are a consumer in another EU member state, you also benefit from
         the mandatory consumer protection provisions of the laws of your country
         of residence.
       </p>
-
-      <!-- ── 16. Severability ── -->
-      <h2>16. Severability</h2>
-      <p>
+<!-- ── 16. Severability ── -->
+<h2>16. Severability</h2>
+<p>
         If any provision of these Terms is found to be unlawful, void, or
         unenforceable, that provision shall be deemed severed from these Terms
         and shall not affect the validity and enforceability of the remaining
         provisions.
       </p>
-
-      <!-- ── 17. Entire Agreement ── -->
-      <h2>17. Entire Agreement</h2>
-      <p>
+<!-- ── 17. Entire Agreement ── -->
+<h2>17. Entire Agreement</h2>
+<p>
         These Terms, together with our Privacy Policy, constitute the entire
         agreement between you and us with respect to the use of Balancly and
         supersede all prior agreements and understandings.
       </p>
-
-      <!-- ── 18. Contact ── -->
-      <h2>18. Contact</h2>
-      <p>
+<!-- ── 18. Contact ── -->
+<h2>18. Contact</h2>
+<p>
         For questions, complaints, or legal notices related to these Terms,
-        please contact:<br />
-        <a href="mailto:balancly.support@gmail.com"
-          >balancly.support@gmail.com</a
-        >
-      </p>
-      <p>
-        <strong>Dudás Tamás István</strong><br />
-        Hungary<br />
+        please contact:<br/>
+<a href="mailto:balancly.support@gmail.com">balancly.support@gmail.com</a>
+</p>
+<p>
+<strong>Dudás Tamás István</strong><br/>
+        Hungary<br/>
         2026
       </p>
+
+  </div>
+
+  <!-- HUNGARIAN -->
+  <div id="content-hu" class="lang-content">
+    <h1>Felhasználási feltételek</h1>
+    <p class="subtitle">Balancly – Személyes pénzügyi menedzser &nbsp;·&nbsp; Utoljára frissítve: 2026. április</p>
+
+    <p>Kérjük, figyelmesen olvasd el ezeket a Felhasználási feltételeket („Feltételek"), mielőtt használod a Balancly mobilalkalmazást. Az alkalmazás letöltésével, telepítésével vagy használatával elfogadod ezeket a Feltételeket. Ha nem értesz egyet, ne használd az alkalmazást.</p>
+    <p>Ezek a Feltételek jogilag kötelező érvényű megállapodást alkotnak köztéd („Felhasználó") és <strong>Dudás Tamás István</strong>, magyarországi egyéni fejlesztő között („Fejlesztő", „mi", „minket" vagy „mienk").</p>
+
+    <h2>1. Jogosultság</h2>
+    <p>A Balancly használatához legalább <strong>13 évesnek</strong> kell lenned. Ha 18 év alatti vagy, megerősíted, hogy szülői vagy gyámhatósági hozzájárulással rendelkezel.</p>
+    <p>A <strong>2024. évi XLIX. törvénynek</strong> (2025. január 1-jétől hatályos) megfelelően az alkalmazás hirdetési funkciói nem irányulnak kiskorúaknak. A 18 év alatti ingyenes felhasználók általános hirdetéseket láthatnak, de tudatosan nem szolgálunk ki viselkedésalapú célzott hirdetéseket kiskorúaknak.</p>
+
+    <h2>2. A szolgáltatás leírása</h2>
+    <p>A Balancly egy személyes pénzügyi nyomkövető alkalmazás. Lehetővé teszi a bevételek és kiadások manuális rögzítését, kategória limitek beállítását, elemzések megtekintését és ismétlődő tranzakciók kezelését. Az alkalmazás <strong>ingyenes</strong> és <strong>prémium előfizetéses</strong> szinten érhető el.</p>
+    <div class="warning-box">
+      <strong>⚠️ Nem pénzügyi tanácsadás.</strong> A Balancly kizárólag személyes nyomkövető eszköz. Az alkalmazásban megjelenő semmi sem minősül pénzügyi, befektetési, adó- vagy jogi tanácsadásnak. Nem vagyunk engedéllyel rendelkező pénzügyi tanácsadó, hitelintézet vagy fizetési szolgáltató. A pénzügyi döntéseidért kizárólag te felelsz. Kifejezetten kizárunk minden olyan felelősséget, amely az alkalmazásban megjelenő információkra való támaszkodásból ered.
     </div>
-  </body>
+
+    <h2>3. Fiókregisztráció</h2>
+    <p>A Balancly használatához érvényes e-mail-cím és jelszó megadásával kell fiókot létrehoznod. Te vagy felelős a következőkért:</p>
+    <ul>
+      <li>Bejelentkezési adataid bizalmas kezelése;</li>
+      <li>A fiókodon belül történő összes tevékenység;</li>
+      <li>Pontos és naprakész adatok megadása a regisztrációkor;</li>
+      <li>A fiókod jogosulatlan használatának azonnali bejelentése.</li>
+    </ul>
+    <p>Fenntartjuk a jogot, hogy felfüggesszük vagy megszüntessük azokat a fiókokat, amelyek megsértik ezeket a Feltételeket, vagy amelyekről alapos okunk van feltételezni, hogy csalárd módon használják azokat.</p>
+
+    <h2>4. Előfizetések és fizetések</h2>
+    <p>A Balancly opcionális prémium előfizetési csomagokat kínál, amelyeket kizárólag a <strong>Google Play</strong> (Android) és az <strong>Apple App Store</strong> (iOS) dolgoz fel. Minden számlázást a megfelelő platformáruház kezel. Mi nem dolgozzuk fel és nem tároljuk a fizetési kártya adataidat.</p>
+    <p><strong>Elérhető csomagok:</strong></p>
+    <ul>
+      <li><strong>Havi előfizetés</strong> — havonta kerül számlázásra, automatikusan megújuló;</li>
+      <li><strong>Éves előfizetés</strong> — évente kerül számlázásra, automatikusan megújuló.</li>
+    </ul>
+    <p><strong>Automatikus megújítás:</strong> Az előfizetések automatikusan megújulnak az egyes számlázási időszakok végén, kivéve, ha a megújítási dátum előtt legalább 24 órával lemondják. Az alkalmazható előfizetési árat a vásárlás megerősítésekor és az egyes megújítási időszakok kezdetén számítjuk fel.</p>
+    <p><strong>Árváltozások:</strong> Fenntartjuk az előfizetési árak módosításának jogát. Ahol a törvény előírja, előzetesen értesítünk az árváltozásokról. Az árváltozás utáni folyamatos használat az új ár elfogadását jelenti.</p>
+    <p><strong>Lemondás:</strong> Az előfizetésedet bármikor lemondhatod a Google Play Áruház vagy az Apple App Store előfizetés-kezelési beállításain keresztül. A lemondás az aktuális számlázási időszak végén lép életbe. Az adott dátumig megőrzöd a prémium funkciókhoz való hozzáférést.</p>
+    <p><strong>Visszatérítések:</strong> A visszatérítési kérelmeket a Google Play vagy az Apple App Store kezeli a saját visszatérítési szabályzatuk szerint. Mi közvetlenül nem dolgozunk fel visszatérítéseket.</p>
+
+    <h2>5. Elállási jog</h2>
+    <p>A <strong>45/2014. (II.26.) Korm. rendelet</strong> és az Magyarországon végrehajtott 2019/770/EU irányelv alapján a fogyasztóknak általában 14 napos elállási joguk van a távollévők között kötött szerződésektől indoklás nélkül. <span class="legal-ref">Ptk. 8:1 § (1) 3.</span></p>
+    <div class="highlight-box">
+      <strong>Digitális tartalom kivétele:</strong> Az előfizetés megkezdésével és a prémium funkciók elérésével kifejezetten kéred, hogy a digitális szolgáltatás azonnal megkezdődjön, és elismered, hogy ezzel lemond a 14 napos elállási jogáról, miután a szerződés teljesítése megkezdődött, a 2011/83/EU irányelv 16. cikk (m) pontjával és annak magyar végrehajtásával összhangban.
+    </div>
+    <p>Ha az előfizetés után még nem értél el prémium funkciót, a vásárlástól számított 14 napon belül kapcsolatba léphetsz velünk az elállás kérelmezéséhez. Ilyen esetekben a visszatérítés feldolgozása a platformáruház (Google Play / App Store) szabályzatától függ.</p>
+
+    <h2>6. Ingyenes szint és hirdetések</h2>
+    <p>A Balancly ingyenes szintjét a <strong>Google AdMob</strong> által megjelenített közbülső hirdetések támogatják. Az ingyenes szint használatával hozzájárulsz az ilyen hirdetések megjelenítéséhez. A prémium előfizetők nem látnak hirdetéseket.</p>
+    <p>A hirdetéseket a Google LLC szolgáltatja, és azokra a Google saját feltételei és adatvédelmi irányelvei vonatkoznak. Nem ellenőrizzük az egyes hirdetések tartalmát. Ha nem megfelelőnek tartott hirdetéssel találkozol, azt közvetlenül a Google-nek jelentheted.</p>
+
+    <h2>7. Felhasználói magatartás és tiltott felhasználás</h2>
+    <p>Beleegyezel, hogy nem:</p>
+    <ul>
+      <li>Használod az alkalmazást jogtalan célra vagy ezen Feltételek megsértésével;</li>
+      <li>Kísérled meg az alkalmazás visszafejtését, dekompilálását vagy szétszerelését;</li>
+      <li>Kísérled meg a rendszereinkhez vagy más felhasználók fiókjaihoz való jogosulatlan hozzáférést;</li>
+      <li>Használod az alkalmazást rosszindulatú kód tárolására vagy továbbítására;</li>
+      <li>Zavarод az alkalmazás integritását vagy teljesítményét;</li>
+      <li>Használsz automatizált szkripteket vagy botokat az alkalmazás eléréséhez;</li>
+      <li>Tévesen mutatkozol be vagy személyt vagy szervezetet megszemélyesítesz;</li>
+      <li>Használod az alkalmazást a magyar vagy az EU jogát sértő módon.</li>
+    </ul>
+
+    <h2>8. Az adataid</h2>
+    <p>A Balanclyba beírt összes pénzügyi adat (tranzakciók, kategóriák, limitek) a tiéd. Ezeket az adatokat a Firebase Firestore-ban tároljuk a te nevedben az eszközök közötti szinkronizáció érdekében. Az adataidat bármikor exportálhatod CSV formátumban az alkalmazásból.</p>
+    <p>A fiók törlésekor az összes adatod véglegesen törlődik rendszereinkből. Az adatok gyűjtéséről, feldolgozásáról és védelméről szóló részletes információkért tekintsd meg <a href="https://dtomi97.github.io/balancly-privacy/">Adatvédelmi irányelveinket</a>.</p>
+    <p>Személyes adataidat a <strong>GDPR (EU) 2016/679 rendeletnek</strong> és az <strong>információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvénynek</strong> megfelelően kezeljük.</p>
+
+    <h2>9. Szellemi tulajdon</h2>
+    <p>Az alkalmazás, beleértve a tervezést, forráskódot, grafikákat, felhasználói felületet és az alkalmazáshoz fejlesztett vagy abba beépített összes tartalmat, <strong>Dudás Tamás István</strong> kizárólagos szellemi tulajdona, és a magyar és nemzetközi szerzői jog védi, beleértve a <strong>szerzői jogról szóló 1999. évi LXXVI. törvényt</strong>.</p>
+    <p>Korlátozott, nem kizárólagos, nem átruházható, visszavonható licencet adunk neked az alkalmazás kizárólag személyes, nem kereskedelmi célú használatára ezen Feltételekkel összhangban. Ez a licenc nem tartalmaz semmilyen jogot az alkalmazás allicencelésére, eladására, viszonteladására, másolására vagy módosítására.</p>
+
+    <h2>10. Szavatossági nyilatkozat kizárása</h2>
+    <p>Az alkalmazást <strong>„ahogy van"</strong> és <strong>„ahogy elérhető"</strong> alapon nyújtjuk, mindenféle kifejezett vagy hallgatólagos szavatosság nélkül, beleértve az értékesíthetőségre, meghatározott célra való alkalmasságra, pontosságra, teljességre vagy jogsértés hiányára vonatkozó szavatosságokat.</p>
+    <p>Nem vállalunk szavatosságot azért, hogy:</p>
+    <ul>
+      <li>Az alkalmazás megszakítás nélküli, hibamentes vagy mindig biztonságos lesz;</li>
+      <li>Minden hiba vagy hiányosság kijavításra kerül;</li>
+      <li>Az alkalmazás vagy szerverei mentesek a vírusoktól vagy más káros összetevőktől;</li>
+      <li>Az alkalmazás használatából nyert eredmények pontosak vagy megbízhatóak lesznek.</li>
+    </ul>
+    <p>Ezen Feltételek semmit sem érintenek a fogyasztókat megillető törvényes jogokból a magyar jog alapján, beleértve a <strong>fogyasztóvédelemről szóló 1997. évi CLV. törvényből</strong> és a <strong>Polgári Törvénykönyvről szóló 2013. évi V. törvényből</strong> eredő jogokat.</p>
+
+    <h2>11. Felelősség korlátozása</h2>
+    <p>Az alkalmazandó jog által megengedett legnagyobb mértékig nem vállalunk felelősséget semmilyen közvetett, véletlenszerű, különleges, következményes vagy büntető jellegű kárért, beleértve az elmaradt hasznot, adatvesztést, goodwill csökkenést vagy egyéb nem vagyoni veszteségeket, amelyek a következőkből erednek:</p>
+    <ul>
+      <li>Az alkalmazás használata vagy használatának képtelensége;</li>
+      <li>A megjelenített pénzügyi adatok hibái vagy pontatlanságai;</li>
+      <li>Az adataidhoz való jogosulatlan hozzáférés vagy azok megváltoztatása;</li>
+      <li>Az alkalmazásban megjelenő információk alapján hozott pénzügyi döntések;</li>
+      <li>A Szolgáltatás megszakadása vagy megszűnése.</li>
+    </ul>
+    <p>A jelen Feltételekből vagy az alkalmazás használatából eredő bármely követelés tekintetében velünk szemben fennálló teljes összesített felelősségünk nem haladhatja meg a követelést megelőző 12 hónapban az alkalmazásért vagy előfizetésért fizetett összeget.</p>
+    <p>Ez a korlátozás nem zárja ki vagy korlátozza a gondatlanságból eredő halálesetért vagy személyi sérülésért, illetve csalásért vagy megtévesztő tévedésért való felelősséget, vagy bármely más olyan felelősséget, amely a magyar jog szerint nem korlátozható.</p>
+
+    <h2>12. Szolgáltatás elérhetősége és módosítások</h2>
+    <p>Fenntartjuk a jogot, hogy bármikor módosítsuk, felfüggesszük vagy megszüntessük az alkalmazást vagy annak bármely részét, előzetes értesítéssel vagy anélkül. Ésszerű mértékben törekedni fogunk arra, hogy előzetesen értesítsünk a jelentős változásokról.</p>
+    <p>Időről időre frissíthetjük ezeket a Feltételeket. A frissített Feltételek ezen az URL-en kerülnek közzétételre. Ha a változások lényegesek, az alkalmazáson vagy e-mailben értesítünk. Az alkalmazás változások hatályba lépése utáni folyamatos használata a frissített Feltételek elfogadását jelenti.</p>
+
+    <h2>13. Fiók megszüntetése</h2>
+    <p>Fiókodat bármikor törölheted az alkalmazásból (Profil → Veszélyes zóna → Fiók törlése). A törléskor az összes adatod véglegesen törlődik rendszereinkből. Az aktív előfizetéseket külön le kell mondani a platformáruházon keresztül a fiók törlése előtt, hogy elkerüld a további díjfelszámítást.</p>
+    <p>Felfüggeszthetjük vagy megszüntethetjük a fiókodat, ha megsérted ezeket a Feltételeket, csalárd tevékenységet folytatsz, vagy ha a törvény ezt megköveteli. A te szerződésszegésed miatti megszüntetés esetén a fel nem használt előfizetési időszakra nem kerül sor visszatérítésre.</p>
+
+    <h2>14. Fogyasztói vitarendezés</h2>
+    <p>Elkötelezetten törekedünk arra, hogy a felhasználókkal felmerülő vitákat jóhiszeműen rendezzük. Ha panaszod van, kérjük, először vedd fel velünk a kapcsolatot az alábbi e-mail-címen.</p>
+    <p>A <strong>2024. január 1-jétől</strong> hatályos magyar jog szerint kötelezőek ránk nézve a <strong>Békéltető Testületek</strong> döntései a <strong>200 000 Ft</strong> értéket el nem érő viták esetén. <span class="legal-ref">1997. évi CLV. tv. 29. §</span></p>
+    <p>Az illetékes Békéltető Testület a mi telephelyünk szerint:</p>
+    <ul>
+      <li><strong>Budapesti Békéltető Testület</strong></li>
+      <li>Cím: 1016 Budapest, Krisztina krt. 99.</li>
+      <li>Weboldal: <a href="https://bekeltet.bkik.hu" target="_blank">bekeltet.bkik.hu</a></li>
+    </ul>
+    <p>Az EU-ban élő fogyasztók az Európai Bizottság online vitarendezési platformját is igénybe vehetik: <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a></p>
+    <p>Fogyasztóvédelmi panaszok benyújthatók a <strong>Nemzeti Kereskedelmi és Fogyasztóvédelmi Hatósághoz (NKFH)</strong> is, amely 2025. január 1-je óta működik önálló hatóságként.</p>
+
+    <h2>15. Irányadó jog és joghatóság</h2>
+    <p>Ezeket a Feltételeket <strong>Magyarország</strong> és az alkalmazandó <strong>Európai Uniós rendeletek</strong> joga alapján kell értelmezni és alkalmazni, beleértve a következőket:</p>
+    <ul>
+      <li>2013. évi V. törvény a Polgári Törvénykönyvről;</li>
+      <li>1997. évi CLV. törvény a fogyasztóvédelemről;</li>
+      <li>1999. évi LXXVI. törvény a szerzői jogról;</li>
+      <li>45/2014. (II.26.) Korm. rendelet a fogyasztó és a vállalkozás közötti szerződésekről;</li>
+      <li>2019/770/EU irányelv a digitális tartalmakról és digitális szolgáltatásokról;</li>
+      <li>GDPR — (EU) 2016/679 rendelet.</li>
+    </ul>
+    <p>A 14. szakaszban leírt fogyasztói vitarendezési mechanizmusokon keresztül nem rendezhető vitákat Magyarország illetékes bíróságainak kizárólagos hatáskörébe kell utalni.</p>
+    <p>Ha egy másik EU-tagállamban élő fogyasztó vagy, akkor a lakóhelyed szerinti ország kötelező fogyasztóvédelmi rendelkezéseiből is profitálsz.</p>
+
+    <h2>16. Elválaszthatóság</h2>
+    <p>Ha ezen Feltételek bármely rendelkezése jogszerűtlennek, érvénytelennek vagy végrehajthatatlannak minősül, azt a rendelkezést a Feltételektől elkülönítettnek kell tekinteni, és az nem érinti a többi rendelkezés érvényességét és végrehajthatóságát.</p>
+
+    <h2>17. Teljes megállapodás</h2>
+    <p>Ezek a Feltételek az Adatvédelmi irányelvekkel együtt alkotják a köztünk és közted létrejött teljes megállapodást a Balancly használatával kapcsolatban, és felváltanak minden korábbi megállapodást és megegyezést.</p>
+
+    <h2>18. Kapcsolat</h2>
+    <p>Ha kérdésed, panaszod vagy jogi értesítésed van ezekkel a Feltételekkel kapcsolatban, kérjük, lépj velünk kapcsolatba:<br />
+    <a href="mailto:balancly.support@gmail.com">balancly.support@gmail.com</a></p>
+    <p><strong>Dudás Tamás István</strong><br />Magyarország<br />2026</p>
+  </div>
+
+</div>
+<script>
+  function switchLang(lang) {
+    document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById('content-' + lang).classList.add('active');
+    document.querySelector('[onclick="switchLang(\'' + lang + '\')"]').classList.add('active');
+  }
+  const browserLang = navigator.language || navigator.userLanguage;
+  if (browserLang && browserLang.toLowerCase().startsWith('hu')) switchLang('hu');
+</script>
+</body>
 </html>
